@@ -1,13 +1,17 @@
 # Recon-Mini-Toolkit
 Python Mini Projekte für Nachtatem - Whois, Portscanner, Subdomain Finder
 
-# Whois Mini-Projekt
 
-## Beschreibung
+
+
+
+Whois Mini-Projekt
+
+Beschreibung
 Dieses Skript führt eine WHOIS-Abfrage für eine angegebene Domain durch und gibt relevante Informationen aus.
 Zusätzlich kommentiert Nachtatem die Ergebnisse mit kleinen Hinweisen.
 
-## Nutzung
+Nutzung
 ```bash
 python whois.py
 
@@ -23,13 +27,13 @@ Registrar: Example Registrar
 
 ---
 
-# Subdomain Scanner Mini-Projekt
+Subdomain Scanner Mini-Projekt
 
-## Beschreibung
+Beschreibung
 Dieses Skript probiert eine Liste häufiger Subdomains aus und überprüft, welche existieren.
 Nachtatem kommentiert jede gefundene Subdomain.
 
-## Nutzung
+Nutzung
 ```bash
 python subdomainscanner.py
 
@@ -46,14 +50,15 @@ Beispiel:
 
 ---
 
-# Portscanner Mini-Projekt
 
-## Beschreibung
+Portscanner Mini-Projekt
+
+Beschreibung
 Dieses Skript scannt Ports einer Domain oder IP-Adresse.
 Es können bestimmte Ports oder ein Fullscan (1-1024) ausgewählt werden.
 Nachtatem kommentiert offene Ports mit kleinen Sprüchen.
 
-## Nutzung
+Nutzung
 ```bash
 python portscanner.py
 
