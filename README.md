@@ -1,5 +1,46 @@
-# Recon-Mini-Toolkit
+Recon-Mini-Toolkit
 Python Mini Projekte für Nachtatem - Whois, Portscanner, Subdomain Finder
+
+
+# Nachtatem’s Vault of Tools 🐉🏜️
+
+Willkommen, Wanderer, in den Ruinen des Ödlands!  
+Hier in Nachtatem’s Vault of Tools findest du die geheimen Spielzeuge eines alten Drachen – gebaut, um menschliche Pfade zu erkunden und die Schatten der digitalen Welt zu durchforsten.  
+
+---
+
+## ⚔️ Warum diese Tools?
+
+Die Ödnis ist voller Fallen, verlassener Maschinen und versteckter Geheimnisse.  
+Nachtatem, uralter Wächter der Datenruinen, hat entschieden, dass du – ja, genau DU – ein bisschen Hilfe brauchst, um die Welt zu durchschauen:
+
+- **Whois Abfrage**: Alte Domains haben Geschichten. Finde heraus, wann sie geboren wurden, wann sie sterben und welche Tore sie öffnen.  
+- **Subdomain Finder**: Manche Bunker… äh, Subdomains, sind leicht zu übersehen. Nachtatem hilft dir, sie zu finden – bevor Mutanten oder Konkurrenten es tun.  
+- **Portscanner**: Offene Türen und Terminaleingänge zeigen dir, wo Sicherheit schwach ist – oder wo du besser die Finger von lässt. Dein Pip-Boy 3000 für die digitale Ödnis.
+
+„Jede Ruine hat ihre Geschichte. Jede Tür kann ein Schatz sein… oder ein tödlicher Fehler.“ – Nachtatem
+
+---
+
+## 🗂️ Projektübersicht
+
+1. [Whois Mini-Projekt](whois/README.md) – Abfrage von Domaininformationen  
+2. [Subdomain Finder Mini-Projekt](subdomain-finder/README.md) – Finden von versteckten Subdomains  
+3. [Portscanner Mini-Projekt](port-scanner/README.md) – Überprüfen offener Ports auf Domain oder Subdomain  
+
+---
+
+## 🚀 Nutzung
+
+Jedes Projekt hat ein eigenes Skript (`.py`) und eine kleine Anleitung im jeweiligen Ordner.  
+Einfach das Skript ausführen, den Anweisungen folgen – und Nachtatem kommentiert alles direkt.  
+
+---
+
+## 🐉 Fun Fact
+
+Alle Tools sind für **Lernzwecke & Ethical Hacking in sicheren Umgebungen** gedacht.  
+Die Ödnis ist groß, aber sei vorsichtig – Nachtatem beobachtet immer. 🔥
 
 
 
