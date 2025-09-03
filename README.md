@@ -51,7 +51,7 @@ Die Ödnis ist groß, aber sei vorsichtig – Nachtatem beobachtet immer. 🔥
 
 
 
-Whois Mini-Projekt
+## Whois Mini-Projekt
 
 
 Willkommen in der Ödnis, Wanderer! 🏜️  
@@ -86,7 +86,7 @@ Registrar: Example Registrar
 
 ---
 
-Subdomain Scanner Mini-Projekt
+## Subdomain Scanner Mini-Projekt
 
 
 Im Ödland lauern überall versteckte Bunker… äh, Subdomains! 🏚️  
@@ -121,9 +121,7 @@ Beispiel:
 ---
 
 
-Portscanner Mini-Projekt
-
-Fallout-Style Story
+## Portscanner Mini-Projekt
 
 Die Ödnis ist voller verlassener Maschinen und Sicherungsterminals… 🛠️  
 Bevor du unvorsichtig an einen Terminal gehst, will Nachtatem sicherstellen, dass du die richtigen Ports kennst.  
