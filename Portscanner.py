@@ -1,14 +1,14 @@
 import socket
 import random
 
-# 1️⃣ Ziel-IP Adresse eingeben
+# Ziel-IP Adresse eingeben
 target_ip = input("Geben Sie die Ziel-IP-Adresse oder Domain ein: ")
 
 # Hostname auflösen zu IP-Adresse
 target_ip = socket.gethostbyname(target_ip)
 
 # Nachtatems Einsatz
-print("\n🐉 Nachtatem spricht:")
+print("\n Nachtatem spricht:")
 print("1. Bestimmte Ports scannen?")
 print("2. Automatischer Fullscan (1-1024)?")
 choice = input("Wähle weise... 1 oder 2: ")
@@ -26,7 +26,7 @@ dragon_quotes = [
     "Eine klaffende Wunde in deinem System..."
 ]
 
-# 2️⃣ Port-Auswahl
+# Port-Auswahl
 if choice == "1":
     ports_input = input("Gib die Ports ein (z.B. 22,80,443 oder 20-25): ")
     ports_to_scan = []
@@ -45,9 +45,9 @@ if choice == "1":
 else:
     ports_to_scan = range(1, 1025)  # Fullscan Standardbereich
 
-print(f"\n🐲 Nachtatem zischt: 'Ich durchforste nun Ports {ports_to_scan if choice=='1' else '1-1024'}...'\n")
+print(f"\n Nachtatem zischt: 'Ich durchforste nun Ports {ports_to_scan if choice=='1' else '1-1024'}...'\n")
 
-# 3️⃣ Port-Scan
+# Port-Scan
 for port in ports_to_scan:
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.settimeout(0.5)
@@ -55,7 +55,7 @@ for port in ports_to_scan:
 
     if result == 0:
         print(f"🔥 Port {port} ist offen!")
-        print("   🐉 Nachtatem: " + random.choice(dragon_quotes))
+        print("  Nachtatem: " + random.choice(dragon_quotes))
         open_ports.append(port)
 
         # Banner-Grabbing
@@ -68,6 +68,6 @@ for port in ports_to_scan:
             pass
     sock.close()
 
-# 4️⃣ Statistik
-print(f"\n🐉 Nachtatem brummt: 'Der Scan ist vollendet. {len(open_ports)} offene Tore habe ich erspäht.'")
+# Statistik
+print(f"\n Nachtatem brummt: 'Der Scan ist vollendet. {len(open_ports)} offene Tore habe ich erspäht.'")
 print(f"⚔️ Offene Ports: {open_ports if open_ports else 'Keine... deine Festung ist vorerst sicher.'}")
